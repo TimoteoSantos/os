@@ -34,7 +34,8 @@
 <select> 
 
 <br>
-
+<label for="equipamento">Serviço:</label>
+<br>
 
 <select   name = 'servico'  class="form-control largura-2" >
 
