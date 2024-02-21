@@ -1,0 +1,54 @@
+
+body {
+    margin: 5em !important;
+    background-color: azure !important;
+
+}
+
+nav {
+    margin: 1em 0 1em 0 !important;
+}
+
+th {
+
+    background-color: aquamarine !important;
+    margin-top: 2em !important;    
+}
+
+td {
+    padding: 8px !important;
+}
+
+.centro {
+    width: 90% !important;
+    background-color: #ffffff;
+    padding: 0.8em;
+    border-radius: 1em;
+    height: 150em;
+}
+.cor_branca{
+    background-color: #ffffff !important;
+}
+
+.centralizar {
+    
+    text-align: center !important;
+}
+
+.largura {
+
+   width: 200px !important;
+   display: inline !important;
+   margin-bottom: 35px !important;
+   height: 30px;
+  
+}
+
+.largura-2 {
+
+   width: 500px !important;
+   display: inline !important;
+   margin-bottom: 25px !important;
+   height: 40px;
+  
+}

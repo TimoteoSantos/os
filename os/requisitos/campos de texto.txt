@@ -1,0 +1,15 @@
+
+<label for="marca">Marca:</label>
+<br>
+<input type="tex" id="marca" name="marca" required class="form-control largura-2" >
+<br>
+
+<label for="serie">Série:</label>
+<br>
+<input type="tex" id="serie" name="serie" required class="form-control largura-2" >
+<br>
+
+<label for="modelo">Modelo:</label>
+<br>
+<input type="tex" id="modelo" name="modelo" required class="form-control largura-2" >
+<br>

@@ -1,0 +1,29 @@
+
+<!--
+
+
+<h6> Ordens de serviço atuais </h6>
+<table>
+
+<tbody>
+<th>ID</th>
+<th>Abertura</th>
+<th>Prazo</th>
+<th>Status</th>
+<th width=700px>Observacao</th>
+</tbody>
+
+
+<tr>
+    <td>01</td>
+    <td>19/02/2024</td>
+    <td>20/02/2024</td>
+    <td>ABERTA</td>
+    <td>Aguardando retorno</td>
+
+</tr>
+
+
+
+</table>
+-->
