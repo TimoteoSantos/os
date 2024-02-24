@@ -14,7 +14,7 @@
 <section>
 
 
-<form action="#">
+<form action="script/CadastroOrdem.php" method='POST'>
 
 <label for="data">Data:</label>
 <input  type="date" id="data" name="data" required class="form-control largura" >
@@ -26,29 +26,37 @@
 <label for="equipamento">Equipamento:</label>
 <br>
 
-<select   name = 'equipamento'  class="form-control largura-2" >
-
-<option> 01 | COMPUTADOR ESCRITORIO L3 </option>
-<option> 02 | COMPUTADOR ESCRITORIO L2 </option>
-
-<select> 
-
-<br>
-<label for="equipamento">Serviço:</label>
-<br>
-
-<select   name = 'servico'  class="form-control largura-2" >
-
-<option> 01 | INSTALACAO WINDOWS </option>
-<option> 02 | MANUTENCAO PREVENTIVA </option>
-
-<select> 
 
 
-
-
+<select class="form-select" multiple aria-label="Multiple select example" name="opcoes_selecionadas[]">
+  <option selected>Nenhum</option>
+  <option value="1"> 10 | L3 | ESC | Computador 01</option>
+  <option value="2"> 11 | L3 | ESC | Computador 02</option>
+  <option value="3"> 12 | L3 | ESC | Computador 03</option>
+</select>
 <br>
 
+Serviço:
+<br>
+
+<select class="form-select" multiple aria-label="Multiple select example" name="opcoes_selecionadas[]">
+  <option selected>Nenhum</option>
+  <option value="1"> 10 FORMATACAO</option>
+  <option value="2"> 11 INSTALACAO</option>
+</select>
+<br>
+
+
+<textarea class="form-control "  rows="15" cols="33">
+
+
+</textarea>
+
+
+<p>
+
+
+<input type='submit'> 
 
 </form>
 
